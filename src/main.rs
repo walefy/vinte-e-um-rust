@@ -44,8 +44,8 @@ fn main() {
         let deck_id: String = shuffle_deck();
 
         println!("{}", "-".repeat(30));
-        println!("You: {} pontos", global_player_score.score);
-        println!("Computer: {} pontos", global_computer_score.score);
+        println!("Você: {} pontos", global_player_score.score);
+        println!("Computador: {} pontos", global_computer_score.score);
         println!("{}", "-".repeat(30));
 
         for _ in 0..52 {
