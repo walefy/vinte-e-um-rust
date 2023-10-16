@@ -25,7 +25,7 @@ fn get_points(card: String) -> i32 {
 }
 
 fn player_gets_card(deck_id: &str, player: &mut Player) {
-    let card: String = draw_card(&deck_id);
+    let card: String = draw_card(deck_id);
     let points: i32 = get_points(card);
 
     player.add_score(points);
